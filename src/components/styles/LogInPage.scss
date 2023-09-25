@@ -1,0 +1,193 @@
+.main_div{
+  width: 70%;
+  margin-inline: auto;
+  margin-top: 5rem;
+  padding: 1.5rem;
+  .main_heading{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+  }
+  .underline{
+    width: 20%;
+    margin-inline: auto;
+    height: 0.5rem;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  .form_div{
+    width: 80%;
+    margin-inline: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    h1{
+      position: absolute;
+      top: 3rem;
+      left: 5rem;
+    }
+    input{
+      width: 80%;
+      margin-top: 7rem;
+      outline: none;
+      border: 0.5px solid white;
+      background-color: transparent;
+      font-size: 1.5rem;
+      border-radius: 0.25rem;
+      color: white;
+      padding: 0.5rem;
+
+    }
+  }
+  .button_div{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    margin-top: 2rem;
+    div{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      .icons{
+        transform: rotate(-90deg);
+      }
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      outline: none;
+      border-radius: 0.25rem;
+      border: 0.5px solid white;
+      transition: all 250ms;
+      &:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .button_div2{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    margin-top: -3rem;
+    div{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      background-color: white;
+      color: black;
+      border-radius: 0.25rem;
+      padding: 1rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      outline: none;
+      border: 0.5px solid white;
+      transition: all 250ms;
+      &:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+.signUp_div{
+  display: flex;
+  margin-bottom: 3rem;
+  width: 90%;
+  margin-top: 8rem;
+  margin-inline: auto;
+  border: 0.5px solid gray;
+  padding: 1rem;
+  .left-side{
+    width: 60%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    .main_heading{
+      color: white;
+      font-size: 3.5rem;
+      display: inline-block;
+      margin-inline: 1rem;
+      margin-block: 2rem;
+      .underline{
+        width: 100%;
+        height: 0.5rem;
+        border-radius: 1rem;
+        background-color: white;
+      }
+    }
+    .email_inputTest{
+      color: white;
+      margin-inline: 1rem;
+      margin-block: 2rem;
+
+    }
+    .email_input{
+      width: 60%;
+      margin-inline: 1rem;
+
+      outline: none;
+      border: 0.5px solid white;
+      background-color: transparent;
+      font-size: 1.5rem;
+      border-radius: 0.25rem;
+      color: white;
+      padding: 0.5rem;
+    }
+    .password_inputTest{
+      color: white;
+      margin-inline: 1rem;
+      margin-block: 2rem;
+    }
+    .password_input{
+      width: 60%;
+      margin-inline: 1rem;
+      outline: none;
+      border: 0.5px solid white;
+      background-color: transparent;
+      font-size: 1.5rem;
+      border-radius: 0.25rem;
+      color: white;
+      padding: 0.5rem;
+    }
+    button{
+      background-color: white;
+      width: 60%;
+      margin-inline: 1rem;
+      padding: 0.7rem;
+      border: 0.5px solid white;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      font-weight: 500;
+      &:hover{
+        background-color: black;
+        color: white;
+        transition: all 250ms ease-in-out;
+      }
+    }
+  }
+  .right-side{
+    width: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+}
